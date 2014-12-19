@@ -10,14 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "BTFLeakDetect"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BTFLeakDetect."
+  s.summary          = "UIViewController leak detection"
   s.description      = <<-DESC
-                       An optional longer description of BTFLeakDetect
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Detect whether UIViewController instances leak after they are dismissed or popped
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BTFLeakDetect"
+  s.homepage         = "https://github.com/grav/leakdetect"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Mikkel Gravgaard" => "mikkel@klokke.dk" }
