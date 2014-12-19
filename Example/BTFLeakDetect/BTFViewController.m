@@ -7,7 +7,6 @@
 //
 
 #import "BTFViewController.h"
-#import "BTFLeakDetect.h"
 #import "BTFLeakyViewController.h"
 
 @interface BTFViewController ()
