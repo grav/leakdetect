@@ -5,11 +5,33 @@
 [![License](https://img.shields.io/cocoapods/l/BTFLeakDetect.svg?style=flat)](http://cocoadocs.org/docsets/BTFLeakDetect)
 [![Platform](https://img.shields.io/cocoapods/p/BTFLeakDetect.svg?style=flat)](http://cocoadocs.org/docsets/BTFLeakDetect)
 
+BTFLeakDetect helps detecting whether UIViewController instances leak after they are dismissed from a parent view controller or popped from a navigation view controller.
+
 ## Usage
+
+You can enable BTFLeakDetect by simply adding the following to your `application:didFinishLaunchingWithOptions:` 
+
+```
+[BTFLeakDetect enableWithException]
+```
+
+which throws an exception when a leak is detected, or 
+
+```
+[BTFLeakDetect enableWithLogging];
+```
+
+if you just want to get noticed in the log.
+
+Enabling exceptions is adviced, since this helps you catch the leak as early as possible in the development fase. This way there's less code to consider, meaning less need for instrumentation.
+
+You probably want to enable BTFLeakDetect in development only, so wrapping in `#ifdef DEBUG` or similar is also a good idea.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+BFTLeakDetect will work with iOS 7 and up. 
 
 ## Installation
 
