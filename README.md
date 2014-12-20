@@ -9,7 +9,7 @@ BTFLeakDetect helps detecting whether UIViewController instances leak after they
 
 ## Usage
 
-You can enable BTFLeakDetect by simply adding the following to your `application:didFinishLaunchingWithOptions:` 
+You can enable BTFLeakDetect by simply adding your `application:didFinishLaunchingWithOptions:`  either
 
 ```
 [BTFLeakDetect enableWithException]
