@@ -1,6 +1,6 @@
 # BTFLeakDetect
 
-[![CI Status](http://img.shields.io/travis/Mikkel Gravgaard/BTFLeakDetect.svg?style=flat)](https://travis-ci.org/Mikkel Gravgaard/BTFLeakDetect)
+[![CI Status](http://img.shields.io/travis/grav/leakdetect.svg?style=flat)](https://travis-ci.org/grav/leakdetect)
 [![Version](https://img.shields.io/cocoapods/v/BTFLeakDetect.svg?style=flat)](http://cocoadocs.org/docsets/BTFLeakDetect)
 [![License](https://img.shields.io/cocoapods/l/BTFLeakDetect.svg?style=flat)](http://cocoadocs.org/docsets/BTFLeakDetect)
 [![Platform](https://img.shields.io/cocoapods/p/BTFLeakDetect.svg?style=flat)](http://cocoadocs.org/docsets/BTFLeakDetect)
