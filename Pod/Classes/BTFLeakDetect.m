@@ -38,7 +38,8 @@ void checkIfNil(__weak id obj, NSInteger seconds);
 
 - (void)btf_dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion {
 
-    [BTFLeakDetect checkViewController:self.presentedViewController];
+    UIViewController *dismissVC = self.presentedViewController ?: self;
+    [BTFLeakDetect checkViewController:dismissVC];
 
     [self btf_dismissViewControllerAnimated:flag completion:completion];
 }
