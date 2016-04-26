@@ -59,6 +59,12 @@
 
 }
 
+- (void)setViewControllers
+{
+    [self.navigationController setViewControllers:@[self]];
+}
+
+
 - (void)push
 {
     BTFLeakyViewController *vc = [BTFLeakyViewController new];
@@ -66,6 +72,14 @@
 
     if(self.leakSwitch.isOn) [vc leak];
 
+    UIButton *setButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [setButton setTitle:@"Set" forState:UIControlStateNormal];
+    [setButton sizeToFit];
+    [vc.view addSubview:setButton];
+    setButton.center = setButton.superview.center;
+    [setButton addTarget:self action:@selector(setViewControllers) forControlEvents:UIControlEventTouchUpInside];
+
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 

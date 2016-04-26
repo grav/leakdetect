@@ -46,6 +46,20 @@ void checkIfNil(__weak id obj, NSInteger seconds);
 @end
 
 @implementation UINavigationController (Swizzled)
+
+- (void)btf_setViewControllers:(NSArray<__kindof UIViewController *> *)viewControllers
+{
+    NSArray *removedVCs = [self.viewControllers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(UIViewController *vc, NSDictionary<NSString *,id> * _Nullable bindings) {
+        return ![viewControllers containsObject:vc];
+    }]];
+    
+    [removedVCs enumerateObjectsUsingBlock:^(UIViewController *vc, NSUInteger idx, BOOL * _Nonnull stop) {
+        [BTFLeakDetect checkViewController:vc];
+    }];
+    
+    [self btf_setViewControllers:viewControllers];
+}
+
 - (UIViewController *)btf_popViewControllerAnimated:(BOOL)animated {
 
     [BTFLeakDetect checkViewController:[self.viewControllers lastObject]];
@@ -100,8 +114,11 @@ void checkIfNil(__weak id obj, NSInteger seconds){
 
 + (void)enable{
     [UINavigationController btf_swizzle:@selector(popViewControllerAnimated:) with:@selector(btf_popViewControllerAnimated:)];
-    [UIViewController btf_swizzle:@selector(dismissViewControllerAnimated:completion:) with:@selector(btf_dismissViewControllerAnimated:completion:)];
 
+    [UINavigationController btf_swizzle:@selector(setViewControllers:) with:@selector(btf_setViewControllers:)];
+    
+    [UIViewController btf_swizzle:@selector(dismissViewControllerAnimated:completion:) with:@selector(btf_dismissViewControllerAnimated:completion:)];
+    
 }
 
 @end
