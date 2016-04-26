@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BTFLeakDetect"
-  s.version          = "0.2.1"
+  s.version          = "0.2.2"
   s.summary          = "UIViewController leak detection"
   s.description      = <<-DESC
                        Detect whether UIViewController instances leak after they are dismissed or popped
