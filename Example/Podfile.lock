@@ -1,0 +1,16 @@
+PODS:
+  - BTFLeakDetect (0.2.2)
+
+DEPENDENCIES:
+  - BTFLeakDetect (from `../`)
+
+EXTERNAL SOURCES:
+  BTFLeakDetect:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BTFLeakDetect: f6c722af28e92048deba35416064006ec5429bdc
+
+PODFILE CHECKSUM: 837a8139ccca7a3f3703c68d3ad51d63ea9b0aed
+
+COCOAPODS: 1.4.0

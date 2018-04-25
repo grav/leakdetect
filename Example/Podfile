@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'BTFLeakDetect', :exclusive => true do
+target 'BTFLeakDetect' do
   pod "BTFLeakDetect", :path => "../"
 end

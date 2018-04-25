@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A3A899F76DF30E97A84EBE /* libPods-BTFLeakDetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0860AB5D6618873BBD477 /* libPods-BTFLeakDetect.a */; };
+		14E72FB372F2CDC396101212 /* libPods-BTFLeakDetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BAD61F31D2A6EC879FE460 /* libPods-BTFLeakDetect.a */; };
 		308A6BB71E929B26129F8F93 /* BTFLeakyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308A69F1F29AFFB1AD8757DC /* BTFLeakyViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -20,13 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02ED4E6CE15D68DCB50FAA66 /* Pods-BTFLeakDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFLeakDetect.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect.release.xcconfig"; sourceTree = "<group>"; };
-		285A60427AE9F59037D7BF91 /* Pods-BTFLeakDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFLeakDetect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect.debug.xcconfig"; sourceTree = "<group>"; };
-		2A84BFC60BE81A6B0B4FCE26 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		08BAD61F31D2A6EC879FE460 /* libPods-BTFLeakDetect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTFLeakDetect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		308A632D02D681651BC52358 /* BTFLeakyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFLeakyViewController.h; sourceTree = "<group>"; };
 		308A69F1F29AFFB1AD8757DC /* BTFLeakyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFLeakyViewController.m; sourceTree = "<group>"; };
-		45FD396A07B7D182F85F3AA2 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55616252AA9BD56DA904D26C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D4EFF43CBC382D6BCB4787B /* Pods-BTFLeakDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFLeakDetect.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BTFLeakDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTFLeakDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +41,7 @@
 		68E27AAFBE14C780CB2943C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7DADDA4442F730AECC520C05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FFA29D26508CEEB0B99FC35 /* BTFLeakDetect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTFLeakDetect.podspec; path = ../BTFLeakDetect.podspec; sourceTree = "<group>"; };
-		ACB0860AB5D6618873BBD477 /* libPods-BTFLeakDetect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTFLeakDetect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E101AEA80197DFF4B69673 /* Pods-BTFLeakDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTFLeakDetect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +52,22 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				07A3A899F76DF30E97A84EBE /* libPods-BTFLeakDetect.a in Frameworks */,
+				14E72FB372F2CDC396101212 /* libPods-BTFLeakDetect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0465105BAB86345DF29BAA1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2E101AEA80197DFF4B69673 /* Pods-BTFLeakDetect.debug.xcconfig */,
+				4D4EFF43CBC382D6BCB4787B /* Pods-BTFLeakDetect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +75,7 @@
 				6003F593195388D20070C39A /* BTFLeakDetect */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				C168427719D757D4869122FF /* Pods */,
+				0465105BAB86345DF29BAA1E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +94,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				ACB0860AB5D6618873BBD477 /* libPods-BTFLeakDetect.a */,
-				45FD396A07B7D182F85F3AA2 /* libPods-Tests.a */,
+				08BAD61F31D2A6EC879FE460 /* libPods-BTFLeakDetect.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,17 +135,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C168427719D757D4869122FF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				285A60427AE9F59037D7BF91 /* Pods-BTFLeakDetect.debug.xcconfig */,
-				02ED4E6CE15D68DCB50FAA66 /* Pods-BTFLeakDetect.release.xcconfig */,
-				2A84BFC60BE81A6B0B4FCE26 /* Pods-Tests.debug.xcconfig */,
-				55616252AA9BD56DA904D26C /* Pods-Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,11 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BTFLeakDetect" */;
 			buildPhases = (
-				EBECC22D7F450CBED6FA1A90 /* Check Pods Manifest.lock */,
+				5925A71539765815AF479418 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				632024264294F00D0990FDDD /* Copy Pods Resources */,
+				272E656762ED9FFA5E2A0C4C /* [CP] Embed Pods Frameworks */,
+				3E3A437DEC71A837A9043438 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,34 +199,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		632024264294F00D0990FDDD /* Copy Pods Resources */ = {
+		272E656762ED9FFA5E2A0C4C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E3A437DEC71A837A9043438 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BTFLeakDetect/BTFLeakDetect.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BTFLeakDetect.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTFLeakDetect/Pods-BTFLeakDetect-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EBECC22D7F450CBED6FA1A90 /* Check Pods Manifest.lock */ = {
+		5925A71539765815AF479418 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTFLeakDetect-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -336,7 +352,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 285A60427AE9F59037D7BF91 /* Pods-BTFLeakDetect.debug.xcconfig */;
+			baseConfigurationReference = B2E101AEA80197DFF4B69673 /* Pods-BTFLeakDetect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -350,7 +366,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02ED4E6CE15D68DCB50FAA66 /* Pods-BTFLeakDetect.release.xcconfig */;
+			baseConfigurationReference = 4D4EFF43CBC382D6BCB4787B /* Pods-BTFLeakDetect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
